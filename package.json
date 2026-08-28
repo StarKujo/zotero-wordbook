@@ -1,0 +1,33 @@
+{
+  "name": "zotero-wordbook",
+  "private": false,
+  "type": "module",
+  "version": "0.1.9",
+  "description": "A personal English-Chinese vocabulary notebook for the Zotero Reader.",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://github.com/StarKujo/zotero-wordbook#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarKujo/zotero-wordbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StarKujo/zotero-wordbook/issues"
+  },
+  "config": {
+    "addonName": "Zotero Wordbook",
+    "addonID": "zotero-wordbook@lyr.local",
+    "addonRef": "zoterowordbook",
+    "addonInstance": "ZoteroWordbook",
+    "prefsPrefix": "extensions.zotero.zoterowordbook"
+  },
+  "scripts": {
+    "start": "zotero-plugin serve",
+    "build": "zotero-plugin build && tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "zotero-plugin-scaffold": "^0.8.2",
+    "zotero-types": "^4.1.0-beta.4"
+  }
+}
