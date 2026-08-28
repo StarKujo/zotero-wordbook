@@ -1,0 +1,5 @@
+node_modules/
+*.xpi
+wordbook.json
+wordbook-export.json
+wordbook-export.csv
